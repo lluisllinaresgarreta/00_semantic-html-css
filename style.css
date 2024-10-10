@@ -12,12 +12,13 @@ body {
     flex-direction: column;
     min-height: 100vh;
     color: #333;
+    justify-content: space-between;
 }
 
 header {
     background-color: #4185d1;
     color: white;
-    padding: 20px 0;
+    padding: 1.25rem 0;
     text-align: center;
 }
 
@@ -26,7 +27,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 50px 10%;
+    padding: 3.125rem 10%;
     height: 80vh;
     
 }
@@ -34,16 +35,16 @@ header {
 .form_container {
     background: #ffffff;
     padding: 1rem;
-    border-radius: 8px;
-    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 0.5rem;
+    box-shadow: 0rem 0.125rem 0.625rem rgba(0, 0, 0, 0.1);
     width: 60%;
     height: 50vh;
 }
 .resources_container {
     background: #ffffff;
     padding: 1rem;
-    border-radius: 8px;
-    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 0.5rem;
+    box-shadow: 0rem 0.125rem 0.625rem rgba(0, 0, 0, 0.1);
     width: 35%;
     height: 50vh;
 }
@@ -64,15 +65,15 @@ form {
 
 label {
     font-weight:500;
-    margin-bottom: 10px;
+    margin-bottom: 0.625rem;
 }
 
 input, textarea {
     margin-bottom: 3%;
     padding: 2%;
-    border: 1px solid #ddd;
-    border-radius: 4px;
-    font-size: 16px;
+    border: 0.063rem solid #ddd;
+    border-radius: 0.25rem;
+    font-size: 1rem;
 }
 
 button {
@@ -80,17 +81,13 @@ button {
     color: white;
     padding-top: 0.75%;
     padding-bottom: 0.75%;
-    border-radius: 4px;
-    font-size: 15px;
+    border-radius: 0.25rem;
+    font-size: 1rem;
     border: none;
 }
 
 button:hover {
     background-color: #e64a19;
-}
-
-ul {
-    list-style-type: none; /* elimina les boles de la llista */
 }
 
 li {
@@ -105,11 +102,11 @@ a {
 a:hover {
     text-decoration: underline;
 }
+
 a:visited {
     color: #6A3B99;
 }
 
-/* Footer Styles */
 footer {
     background-color: #4a90e2;
     color: white;

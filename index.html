@@ -12,29 +12,29 @@
         <h1>My Notes Application</h1>
     </header>
 
-    <div class="main_container">
-        <div class="form_container">
+    <main class="main_container">
+        <section class="form_container">
             <h2>Create a New Note</h2>
             <form>
-                <label>Title:</label>
-                <input type="text" placeholder="Enter note title">
-                <label for="content">Content:</label>
-                <textarea rows="3" placeholder="Enter note content"></textarea>
+                <label for="noteTitle">Title:</label>
+                <input id="noteTitle" type="text" placeholder="Enter note title">
+                <label for="noteContent">Content:</label>
+                <textarea id="noteContent" rows="3" placeholder="Enter note content"></textarea>
                 <button type="submit">Add Note</button>
             </form>
-        </div>
-        <div class="resources_container">
+        </section>
+        <aside class="resources_container">
             <h3>Resources</h3>
             <ul>
                 <li><a href="https://developer.mozilla.org/en-US/">MDN Web Docs</a></li>
                 <li><a href="https://css-tricks.com/">css-tricks</a></li>
                 <li><a href="https://github.com/lluisllinaresgarreta">My Github</a></li>
             </ul>
-        </div>
-    </div>
+        </aside>
+    </main>
 
     <footer>
-        <p>&copy; 2024 My Notes Application</p><!--&copy; per fer el simbol de copy right-->
+        <p>&copy; 2024 My Notes Application</p>
     </footer>
 </body>
 </html>
